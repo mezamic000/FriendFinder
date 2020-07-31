@@ -1,9 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
-	</head>
-	<body></body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <title>Mom Playdates</title>
+  </head>
+  <body>
+    <nav class="navbar" style="background-color: #a1c9d0; border: dashed 6px #ffbdbd;">
+      <span
+        class="navbar-brand"
+        style="
+          color: #ffbdbd;
+          font-size: 30px;
+          font-weight: 700;
+          text-shadow: 2px 2px 4px black;
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+            'Lucida Sans', Arial, sans-serif;
+        "
+        >Mom Playdates</span
+      >
+    </nav>
+
+    <div
+      class="container mx-auto"
+      style="
+        background-color: #ffbdbd;
+        margin: 20px;
+        box-shadow: 1px 2px 4px 3px grey;
+      "
+    >
+      <h3 style="color: #6eacb7; text-shadow: 1px 1px 1px black; text-align: center; font-weight: 700;">Survey</h3>
+
+      <hr style="border: dashed 1px #6eacb7;">
+
+      <form style="color: #0d91a8;">
+        <label for="exampleFormControlSelect1">Name (Required)</label>
+        <div class="row">
+          <div class="col">
+            <input
+              id="firstName"
+              type="text"
+              class="form-control"
+              placeholder="First name"
+              required
+            />
+          </div>
+          <div class="col">
+            <input
+              id="lastName"
+              type="text"
+              class="form-control"
+              placeholder="Last name"
+              required
+            />
+          </div>
+        </div>
+        <div style="margin-top: 5px;">
+          <label for="exampleFormControlSelect1">Photo of You (Required)</label>
+          <input id="firstName" type="text" class="form-control" required />
+        </div>
+
+        <hr />
+
+        <ol style="padding-bottom: 20px;">
+          <li>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1"
+                >You never realized how weird you are until you have a kid that
+                acts just like you.</label
+              >
+              <select class="form-control" id="question1">
+                <option value=""></option>
+                <option>1 (Strongly Disagree)</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5 (Strongly Agree)</option>
+              </select>
+            </div>
+          </li>
+
+          <li>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1"
+                >The fastest land animal is a toddler with something in his
+                mouth.</label
+              >
+              <select class="form-control" id="question2">
+                <option value=""></option>
+                <option>1 (Strongly Disagree)</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5 (Strongly Agree)</option>
+              </select>
+            </div>
+          </li>
+
+          <li>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1"
+                >My kids will walk past everyone and come bang on the shower
+                door for me to open a snack.</label
+              >
+              <select class="form-control" id="question3">
+                <option value=""></option>
+                <option>1 (Strongly Disagree)</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5 (Strongly Agree)</option>
+              </select>
+            </div>
+          </li>
+          <li>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1"
+                >Having kids is like continually having to clean up after a
+                party you didn't attend.</label
+              >
+              <select class="form-control" id="question4">
+                <option value=""></option>
+                <option>1 (Strongly Disagree)</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5 (Strongly Agree)</option>
+              </select>
+            </div>
+          </li>
+          <li>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1"
+                >Silence means your kid(s) are up to no good.</label
+              >
+              <select class="form-control" id="question5">
+                <option value=""></option>
+                <option>1 (Strongly Disagree)</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5 (Strongly Agree)</option>
+              </select>
+            </div>
+          </li>
+          <li>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1"
+                >The 5-second rule for food is real.</label
+              >
+              <select class="form-control" id="question6">
+                <option value=""></option>
+                <option>1 (Strongly Disagree)</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5 (Strongly Agree)</option>
+              </select>
+            </div>
+          </li>
+          <li>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1"
+                >When I say: "I’m just going to the toilet", my kids
+                hear…"family meeting assemble in the bathroom now!”</label
+              >
+              <select class="form-control" id="question7">
+                <option value=""></option>
+                <option>1 (Strongly Disagree)</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5 (Strongly Agree)</option>
+              </select>
+            </div>
+          </li>
+          <li>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1"
+                >My kid is turning out to be exactly like me. Well played,
+                Karma. Well. played.</label
+              >
+              <select class="form-control" id="question8">
+                <option value=""></option>
+                <option>1 (Strongly Disagree)</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5 (Strongly Agree)</option>
+              </select>
+            </div>
+          </li>
+
+          <li>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1"
+                >A dream vaction does not involve the kid(s).</label
+              >
+              <select class="form-control" id="question9">
+                <option value=""></option>
+                <option>1 (Strongly Disagree)</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5 (Strongly Agree)</option>
+              </select>
+            </div>
+          </li>
+          <li>
+            <div class="form-group">
+          <label for="exampleFormControlSelect1"
+            >Ketchup counts as a vegetable.</label
+          >
+          <select class="form-control" id="question10">
+            <option value=""></option>
+            <option>1 (Strongly Disagree)</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5 (Strongly Agree)</option>
+          </select>
+          </div>
+          </form>
+        </li>
+     </ol>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p>
+      <a href="/api/friends">API Friends List</a> |
+      <a href="https://github.com/mezamic000/FriendFinder">GitHub Repo</a>
+    </p>
+  </div>
+</footer>
+        
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
