@@ -11,4 +11,4 @@ A modal will appear showing the name and a picture of the most compatible friend
 
 Express is used to handle routing.
 
-Deployed to Heroku: [The link](https://serene-tor-47518.herokuapp.com/)
+Deployed to Heroku, click [Here](https://serene-tor-47518.herokuapp.com/)
