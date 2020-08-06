@@ -9,6 +9,12 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  
+    <!-- Chosen -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
     <title>Mom Playdates</title>
   </head>
   <body>
@@ -40,30 +46,21 @@
       <hr style="border: dashed 1px #6eacb7;">
 
       <form style="color: #0d91a8;">
-        <label for="exampleFormControlSelect1">Name (Required)</label>
+        <label for="name">Name (Required)</label>
         <div class="row">
           <div class="col">
             <input
-              id="firstName"
+              id="name"
               type="text"
               class="form-control"
-              placeholder="First name"
               required
             />
           </div>
-          <div class="col">
-            <input
-              id="lastName"
-              type="text"
-              class="form-control"
-              placeholder="Last name"
-              required
-            />
-          </div>
+
         </div>
         <div style="margin-top: 5px;">
-          <label for="exampleFormControlSelect1">Photo of You (Required)</label>
-          <input id="firstName" type="text" class="form-control" required />
+          <label for="photo">Photo of You (Required)</label>
+          <input id="photo" type="text" class="form-control" required />
         </div>
 
         <hr />
@@ -71,162 +68,164 @@
         <ol style="padding-bottom: 20px;">
           <li>
             <div class="form-group">
-              <label for="exampleFormControlSelect1"
+              <label for="exampleFormControlSelect3"
                 >You never realized how weird you are until you have a kid that
                 acts just like you.</label
               >
-              <select class="form-control" id="question1">
+              <select class="chosen-select" id="question1">
                 <option value=""></option>
-                <option>1 (Strongly Disagree)</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5 (Strongly Agree)</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
               </select>
             </div>
           </li>
 
           <li>
             <div class="form-group">
-              <label for="exampleFormControlSelect1"
+              <label for="exampleFormControlSelect4"
                 >The fastest land animal is a toddler with something in his
                 mouth.</label
               >
-              <select class="form-control" id="question2">
+              <select class="chosen-select" id="question2">
                 <option value=""></option>
-                <option>1 (Strongly Disagree)</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5 (Strongly Agree)</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
               </select>
             </div>
           </li>
 
           <li>
             <div class="form-group">
-              <label for="exampleFormControlSelect1"
+              <label for="exampleFormControlSelect5"
                 >My kids will walk past everyone and come bang on the shower
                 door for me to open a snack.</label
               >
-              <select class="form-control" id="question3">
+              <select class="chosen-select" id="question3">
                 <option value=""></option>
-                <option>1 (Strongly Disagree)</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5 (Strongly Agree)</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
               </select>
             </div>
           </li>
           <li>
             <div class="form-group">
-              <label for="exampleFormControlSelect1"
+              <label for="exampleFormControlSelect6"
                 >Having kids is like continually having to clean up after a
                 party you didn't attend.</label
               >
-              <select class="form-control" id="question4">
+              <select class="chosen-select" id="question4">
                 <option value=""></option>
-                <option>1 (Strongly Disagree)</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5 (Strongly Agree)</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
               </select>
             </div>
           </li>
           <li>
             <div class="form-group">
-              <label for="exampleFormControlSelect1"
+              <label for="exampleFormControlSelect7"
                 >Silence means your kid(s) are up to no good.</label
               >
-              <select class="form-control" id="question5">
+              <select class="chosen-select" id="question5">
                 <option value=""></option>
-                <option>1 (Strongly Disagree)</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5 (Strongly Agree)</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
               </select>
             </div>
           </li>
           <li>
             <div class="form-group">
-              <label for="exampleFormControlSelect1"
+              <label for="exampleFormControlSelect8"
                 >The 5-second rule for food is real.</label
               >
-              <select class="form-control" id="question6">
+              <select class="chosen-select" id="question6">
                 <option value=""></option>
-                <option>1 (Strongly Disagree)</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5 (Strongly Agree)</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
               </select>
             </div>
           </li>
           <li>
             <div class="form-group">
-              <label for="exampleFormControlSelect1"
+              <label for="exampleFormControlSelect9"
                 >When I say: "I’m just going to the toilet", my kids
                 hear…"family meeting assemble in the bathroom now!”</label
               >
-              <select class="form-control" id="question7">
+              <select class="chosen-select" id="question7">
                 <option value=""></option>
-                <option>1 (Strongly Disagree)</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5 (Strongly Agree)</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
               </select>
             </div>
           </li>
           <li>
             <div class="form-group">
-              <label for="exampleFormControlSelect1"
+              <label for="exampleFormControlSelect10"
                 >My kid is turning out to be exactly like me. Well played,
                 Karma. Well. played.</label
               >
-              <select class="form-control" id="question8">
+              <select class="chosen-select" id="question8">
                 <option value=""></option>
-                <option>1 (Strongly Disagree)</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5 (Strongly Agree)</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
               </select>
             </div>
           </li>
 
           <li>
             <div class="form-group">
-              <label for="exampleFormControlSelect1"
+              <label for="exampleFormControlSelect11"
                 >A dream vaction does not involve the kid(s).</label
               >
-              <select class="form-control" id="question9">
+              <select class="chosen-select" id="question9">
                 <option value=""></option>
-                <option>1 (Strongly Disagree)</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5 (Strongly Agree)</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
               </select>
             </div>
           </li>
           <li>
             <div class="form-group">
-          <label for="exampleFormControlSelect1"
+          <label for="exampleFormControlSelect12"
             >Ketchup counts as a vegetable.</label
           >
-          <select class="form-control" id="question10">
+          <select class="chosen-select" id="question10">
             <option value=""></option>
-            <option>1 (Strongly Disagree)</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5 (Strongly Agree)</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
           </select>
           </div>
+          <button id="submit" type="submit" class="btn btn-lg btn-block" style="background-color: #6eacb7; color: white; box-shadow: 3px 6px grey; border: solid 1px grey"><i class="fa fa-check-circle" aria-hidden="true"></i>
+            Submit</button>
           </form>
         </li>
      </ol>
@@ -239,22 +238,62 @@
     </p>
   </div>
 </footer>
-        
 
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
+<div id="results-modal" class="modal" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title"><strong>Best Match</strong></h2>
+      </div>
+      <div class="modal-body">
+        <h2 id="match-name"></h2>
+        <img id="match-img" src="#" >
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<script type="text/javascript">
+
+ $("#submit").on("click", function(event) {
+    event.preventDefault();
+
+    var userData = {
+        name: $("#name").val(),
+        photo: $("#photo").val(),
+        scores: [
+          $("#question1").val(),
+          $("#question2").val(),
+          $("#question3").val(),
+          $("#question4").val(),
+          $("#question5").val(),
+          $("#question6").val(),
+          $("#question7").val(),
+          $("#question8").val(),
+          $("#question9").val(),
+          $("#question10").val()
+        ]
+ }
+      console.log(userData);
+   
+      $.post("/api/friends", userData, function(data) {
+
+        // Grab the result from the AJAX post so that the best match's name and photo are displayed.
+        $("#match-name").text(data.name);
+        $("#match-img").attr("src", data.photo);
+
+        // Show the modal with the best match
+        $("#results-modal").modal("toggle");
+
+    
+      });
+ });
+</script>
+    
   </body>
 </html>
