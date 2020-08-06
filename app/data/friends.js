@@ -1,7 +1,7 @@
 var friends = [
   {
     name: "Michelle Obama",
-    photo: "https://media2.s-nbcnews.com/j/newscms/2017_02/1187283/michelle-obama-style-today-161216-21_36c0986d5429b037714c34699c28c4a1.fit-760w.jpg",
+    photo: "https://pbs.twimg.com/profile_images/1539770637/200px-Michelle_Obama_official_portrait_headshot_400x400.jpg",
     scores: [
       "5",
       "1",
@@ -17,7 +17,7 @@ var friends = [
   },
   {
     name: "Jennifer Lopez",
-    photo: "https://www.hellomagazine.com/imagenes/celebrities/2019112681114/jennifer-lopez-reveals-sadness-over-twins-emme-max/0-391-235/jennifer-lopez-sadness-over-twins-t.jpg",
+    photo: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/jennifer-lopez-with-daughter-emme-and-son-max-attend-the-news-photo-467255426-1550866424.jpg?crop=1xw:0.38517xh;center,top&resize=200:*",
     scores: [
       "4",
       "2",
@@ -33,7 +33,7 @@ var friends = [
   },
   {
     name: "Chrissy Teigen",
-    photo: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/chrissy-teigen-1552328438.jpg?crop=0.835xw:1.00xh;0.104xw,0&resize=980:*",
+    photo: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/chrissy-teigen-1552328438.jpg?crop=0.835xw:1.00xh;0.104xw,0&resize=200:*",
     scores: [
       "5",
       "2",
@@ -49,7 +49,7 @@ var friends = [
   },
   {
     name: "Beyonce",
-    photo: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-920233020-1552329031.jpg?crop=1xw:0.9984189723320158xh;center,top&resize=980:*",
+    photo: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-920233020-1552329031.jpg?crop=1xw:0.9984189723320158xh;center,top&resize=200:*",
     scores: [
       "3",
       "3",
@@ -65,7 +65,7 @@ var friends = [
   },
   {
     name: "Reese Witherspoon",
-    photo: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/18512907-654375948085554-6499271235317268480-n-1584732953.jpg?crop=0.907xw:0.597xh;0.00481xw,0.165xh&resize=1200:*",
+    photo: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/18512907-654375948085554-6499271235317268480-n-1584732953.jpg?crop=0.907xw:0.597xh;0.00481xw,0.165xh&resize=300:*",
     scores: [
       "4",
       "3",
@@ -81,7 +81,7 @@ var friends = [
   },
   {
     name: "Serena Williams",
-    photo: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/serena-and-olympia-1552330265.jpg?crop=0.835xw:1.00xh;0.119xw,0&resize=980:*",
+    photo: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/serena-and-olympia-1552330265.jpg?crop=0.835xw:1.00xh;0.119xw,0&resize=200:*",
     scores: [
       "4",
       "4",
